@@ -1,0 +1,270 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumCorner</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        header {
+            background: url("images/pic2.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 800px;
+        }
+        
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+        
+        h6 {
+            padding-bottom: 2vw;
+        }
+        
+        .tabs .indicator {
+            background-color: brown;
+        }
+        
+        .tabs .tab a:focus,
+        .tabs .tab a:focus.active {
+            background: transparent;
+        }
+        
+        @media screen and (max-width:670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-wrapper brown lighten-2">
+            <div class="container">
+                <a href="#" class="brand-logo"><b>YumCorner</b></a>
+                <a href="#" class="sidenav-trigger" data-target="links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#category"><b>Categories</b></a>
+                    </li>
+                    <li>
+                        <a href="#service"><b>Services</b></a>
+                    </li>
+                    <li>
+                        <a href="#contact"><b>Contacts</b></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-floating btn-small brown lighten-1 tooltipped" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-floating btn-small brown lighten-1 tooltipped" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-floating btn-small brown lighten-1 tooltipped" data-tooltip="Twitter">
+                            <i class=" fab fa-twitter "></i></a>
+                    </li>
+                </ul>
+                <ul class=" sidenav " id="links ">
+                    <li>
+                        <a href="#category"><b>Categories</b></a>
+                    </li>
+                    <li>
+                        <a href="#service"><b>Services</b></a>
+                    </li>
+                    <li>
+                        <a href="#contacts"><b>Contacts</b></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <section class="container section scrollspy" id="category">
+
+        <div class="row">
+            <div class="col s12 l4 ">
+                <img src="images/milkyblast.jpg " class="materialboxed" width="350" height="250">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h3 class="brown-text text-darken-1"><b>CAKES</b></h3>
+                <p>Freshly homemade cakes with customised flavours</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1 ">
+                <img src="images/roasted raspberry.jfif" class="materialboxed" width="350" height="250">
+            </div>
+            <div class="col s12 l6 pull-l4 right-align ">
+                <h3 class="brown-text text-darken-1 "><b>CUPCAKES</b></h3>
+                <p>Freshly homemade cakes with customised flavours</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="images/pressed coppa.jpg" class="materialboxed" width="350" height="250">
+            </div>
+            <div class="col s12 l6 offset-l1 ">
+                <h3 class="brown-text text-darken-1 "><b>SANDWICHES</b></h3>
+                <p>Freshly homemade cakes with customised flavours</p>
+            </div>
+        </div>
+    </section>
+    <div class="parallax-container ">
+        <div class="parallax ">
+            <img src="images/cake.jpg " class="responsive-img "> </div>
+    </div>
+    <div class="container ">
+        <h3 class="brown-text center"> Experience the best of baking with BakeWorld<br>The home of good baking!!
+            <br>Come taste for yourself!!</h3>
+    </div>
+    <div class="parallax-container ">
+        <div class="parallax ">
+            <img src="images/star.jpg " class="responsive-img "> </div>
+    </div>
+    <div class="container ">
+        <h3 class="center brown-text">Great taste in every bite!<br>Baked with the best ingredients!<br>We serve fresh every day!</h3>
+    </div>
+    <section class="container section scrollspy" id="service">
+        <div class="row ">
+            <div class="col s12 l4 ">
+                <h3 class="brown-text ">
+                    About YumCorner
+                </h3>
+                <p>YumCorner offers delicious cakes,cupcakes,cookies and sandwiches.Everything is made from scratch in house and with localey sourced ingredients. Our Theme based Creative Cakes, Cake pop , Cup Cakes and Desserts for Parities, make your Party
+                    Unique and Inevitable.We spend more time in understanding customers expectation, so that we Perfectly Personalize to the Needs We love working with our clients to make their dessert dreams come true!
+                </p>
+            </div>
+            <div class="col s12 l6 offset-l2 ">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#baking" class="brown-text">BAKING</a>
+                    </li>
+                    <li class="tab col s6 ">
+                        <a href="#customising" class="brown-text">CUSTOMISING</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="baking">
+                    <p class="flow-text brown-text text-darken-2">BAKING</p>
+                    <img src="images/baking.jpg" height="280" width="350">
+                    <p>We bake with fresh and natural ingredients.100% pure homemade products.</p>
+                </div>
+                <div class=" col s12 " id="customising">
+                    <p class="flow-text brown-text text-darken-2 ">CUSTOMISING</p>
+                    <img src="images/customising.jpg" height="280" width="350">
+                    <p>We customise our cakes for the customer's wish.Both veg and non-veg flavours are customised here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section container scrollspy " id="contact ">
+        <div class="row ">
+            <div class="col s12 l5 ">
+                <h3 class="brown-text ">Get In Touch</h3>
+                <p>If you have any queries and service-related details,please free to drop a line.We'll get back to your queries as soon as possible.Stay connected!</p>
+            </div>
+            <div class="col s12 l5 offset-l2 ">
+                <form action=" ">
+                    <div class="input-field ">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email..</label>
+                    </div>
+                    <div class=" input-field ">
+                        <i class="material-icons prefix ">message</i>
+                        <input id="msg" class="materialize-textarea">
+                        <label for="msg">Your Message</label>
+                    </div>
+                    <div class="input-field ">
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose the date</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required...</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Baking</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Customising</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn brown">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer brown lighten-2 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col s12 l6 ">
+                    <h3>Contact</h3>
+                    <a href="# " class="btn-floating brown "><i class="material-icons ">location_on</i></a>
+                    <span>Chennai,TamilNadu</span><br>
+                    <a href="# " class="btn-floating brown "><i class="material-icons ">email</i></a>
+                    <span>yumcorner2021@gmail.com</span>
+                </div>
+                <div class="col s12 l4 offset-l2 ">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li>
+                            <a href="# " class="black-text ">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="# " class="black-text ">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="# " class="black-text ">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="# " class="black-text ">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright brown darken-1 ">
+            <div class="container center-align ">
+                &copy;2021 YumCorner
+            </div>
+        </div>
+    </footer>
+
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+
+</html>
